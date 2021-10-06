@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* body{
+   background-image: url('/img/25.png'); 
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position:center;
+   background-attachment: unset;
+   height: 200vh; 
+} */
+
+article, iframe{
+    display: block;
+    background:rgb(63, 82, 50);
+    width: 40vw;
+    margin:auto;
+}
+
+section article h1{
+    color: white;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    color: black;
+}
